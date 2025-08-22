@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+		<title>CSS Demo</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<style>
+		main {
+			max-width: 600px;
+			margin: 2rem auto;
+			padding: 1rem;
+			background: var(--background);
+			border: var(--border-width) solid var(--background-above);
+		}
+	</style>
+	<body>
+		<main>
+			<h1>CSS Demo Page</h1>
+
+			<section>
+				<h2>Buttons</h2>
+				<button>Button</button>
+				<br /><br />
+				<a href="#" class="as-button">Link Styled as a button</a>
+			</section>
+
+			<section>
+				<h2>Inputs</h2>
+				<input type="text" placeholder="Text input" />
+				<input type="number" placeholder="Number input" />
+				<select>
+					<option>Option 1</option>
+					<option>Option 2</option>
+					<option>Option 3</option>
+				</select>
+			</section>
+
+			<section>
+				<h2>Checkboxes</h2>
+				<label> <input type="checkbox" /> Regular Checkbox </label>
+				<br /><br />
+				<label> <input type="checkbox" class="switch" /> Switch Style </label>
+			</section>
+
+			<section>
+				<h2>Range Slider</h2>
+				<input type="range" min="0" max="100" value="50" />
+			</section>
+
+			<section>
+				<h2>Links</h2>
+				<p>Here's a <a href="#">regular link</a> :3</p>
+			</section>
+		</main>
+	</body>
+</html>
