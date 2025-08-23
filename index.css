@@ -97,7 +97,7 @@
 		}
 	}
 
-	input[type="checkbox"]:not([hidden]) {
+	input[type="checkbox"]:not([hidden]):not(.switch) {
 		appearance: none;
 		margin: 0;
 		vertical-align: bottom;
