@@ -103,8 +103,8 @@
 		vertical-align: bottom;
 		width: 1em;
 		height: 1em;
-		border: var(--border-width) solid var(--background-above);
-		background-color: var(--background-below);
+		border: var(--border-width) solid var(--background-above-above);
+		background-color: var(--background);
 		box-sizing: content-box;
 		display: inline-block;
 		cursor: pointer;
@@ -145,7 +145,7 @@
 		overflow: hidden;
 		background-color: var(--background);
 		transition: background var(--ease-out-quint) 0.1s;
-		border: var(--border-width) solid var(--background-below);
+		border: var(--border-width) solid var(--background-above-above);
 		flex-shrink: 0;
 
 		&:checked {
