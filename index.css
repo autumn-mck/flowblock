@@ -97,6 +97,12 @@
 		}
 	}
 
+	label:has(input[type="checkbox"]:not([hidden])) {
+		display: flex;
+		align-items: center;
+		gap: 0.5em;
+	}
+
 	input[type="checkbox"]:not([hidden]):not(.switch) {
 		appearance: none;
 		margin: 0;
@@ -133,6 +139,8 @@
 		--box-size: 1.5em;
 		--middle-gap: 0.25rem;
 
+
+		margin: 0;
 		appearance: none;
 		position: relative;
 		display: inline-block;
